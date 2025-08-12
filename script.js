@@ -11,12 +11,12 @@ document.addEventListener('DOMContentLoaded', function(){
    
     })
  
-     const aumentaFonteBotao = document.getElementById('aumentar-fonte');
+     const aumentaFonteBotao = document.getElementById('aumentar-fonte'); 
      const diminuiFonteBotao = document.getElementById('diminuir-fonte');
      
      const alternaContraste = document.getElementById('alterna-contraste')
  
-     let tamanhoAtualFonte = 1;
+     let tamanhoAtualFonte = 2;
  
      aumentaFonteBotao.addEventListener('click', function(){
          tamanhoAtualFonte += 0.1;
